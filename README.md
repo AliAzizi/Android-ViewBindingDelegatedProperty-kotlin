@@ -11,13 +11,13 @@ Add this line in your build.gradle file :
 ```gradle
 dependencies {
 	        implementation 'com.github.A-Azizi79:Android-ViewBindingDelegatedProperty-kotlin:0.1.0'
-	}
+}
 ```
 
 ## Usage
 
 ```kotlin
-    val binding: YourActivityNameBinding by viewBinding(YourActivityNameBinding::inflate)
+val binding: YourActivityNameBinding by viewBinding(YourActivityNameBinding::inflate)
 ```
 
 ## Contributing
