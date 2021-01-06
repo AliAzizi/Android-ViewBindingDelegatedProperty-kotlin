@@ -10,7 +10,8 @@ Add this line in your build.gradle file :
 
 ```gradle
 dependencies {
-	implementation 'com.github.A-Azizi79:Android-ViewBindingDelegatedProperty-kotlin:0.1.0'
+    ...
+    implementation 'com.github.A-Azizi79:Android-ViewBindingDelegatedProperty-kotlin:0.1.0'
 }
 ```
 
