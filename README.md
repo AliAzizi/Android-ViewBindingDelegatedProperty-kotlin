@@ -10,6 +10,14 @@ One of the advantages of this library is the reduction of your code. 😍😍
 Add this line in your build.gradle file :
 
 ```gradle
+
+android {
+    ...
+    buildFeatures {
+        viewBinding true
+    }
+}
+
 dependencies {
     ...
     implementation 'com.github.A-Azizi79:Android-ViewBindingDelegatedProperty-kotlin:0.1.0'
