@@ -21,7 +21,7 @@ dependencies {
 val binding: YourActivityNameBinding by viewBinding(YourActivityNameBinding::inflate)
 ```
 # Contact me 
-you can fine me on Telegram messenger [@here](https://t.me/Ali_AZ1379)
+you can fine [@here](https://t.me/Ali_AZ1379) on Telegram messenger 😎
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
