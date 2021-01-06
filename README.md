@@ -18,7 +18,16 @@ dependencies {
 ## Usage
 
 ```kotlin
-val binding: YourActivityNameBinding by viewBinding(YourActivityNameBinding::inflate)
+// You must replace YourActivityBinding with your generated binding file name like ActivityMainBinding or ...
+class YourActivity : AppCompatActivity() {
+    val binding: YourActivityBinding by viewBinding(YourActivityBinding::inflate)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        // you must remove setContentView(R.layout.name) because we will do that for you! Awsome right?
+        //calling textView1 and set (Hello World!) text on it
+        binding.textView1.text = "Hello world"
+    }
+}
 ```
 # Contact me 
 you can find me [@here](https://t.me/Ali_AZ1379) on Telegram messenger 😎
