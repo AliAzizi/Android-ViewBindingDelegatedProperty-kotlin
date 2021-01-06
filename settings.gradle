@@ -1,2 +1,3 @@
+include ':ViewBindingDelegatedProperty'
 include ':app'
 rootProject.name = "ViewBindingDelegatedPropertyExample"
