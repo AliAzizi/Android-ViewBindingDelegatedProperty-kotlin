@@ -1,5 +1,5 @@
 # Android Viewbinding delegated property [![](https://jitpack.io/v/A-Azizi79/Android-ViewBindingDelegatedProperty-kotlin.svg)](https://jitpack.io/#A-Azizi79/Android-ViewBindingDelegatedProperty-kotlin)
-
+.
 
 With this library you can use the power of kotlin delegated properties and easily delegate your viewbinding classes.
 One of the advantages of this library is the reduction of your code. 😍😍
